@@ -1,7 +1,0 @@
-*.obj
-*.ilk
-*.pdb
-*.exe
-/Debug/
-/Release/
-.vs/
