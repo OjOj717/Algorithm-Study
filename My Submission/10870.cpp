@@ -6,7 +6,7 @@ int main()
     int n;
     cin >> n;
         
-    int arr[n+1];
+    int arr[21];
     arr[0] = 0;
     arr[1] = 1;
     arr[2] = 1;
