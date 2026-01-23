@@ -16,8 +16,55 @@
 *.vsix
 
 ### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
+# --- VS Code & OS ---
+.vscode/
+.DS_Store
+Thumbs.db
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# --- 빌드 결과물 (Executable & Libraries) ---
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exp
+*.ilk
+*.pdb
+
+# --- 빌드 디렉토리 (CMake, Make 등) ---
+[Bb]uild/
+bin/
+obj/
+out/
+
+# --- CMake 관련 ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+cmake-build-*/
+
+# --- 컴파일러 및 툴 관련 ---
+*.gch
+*.pch
+*.d
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.filters
+
+# --- 외부 라이브러리 및 임시 파일 ---
+vcpkg_installed/
+.cache/
+.clangd/
