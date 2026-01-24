@@ -8,7 +8,7 @@ int main()
     cin >> n >> k;
 
     long long dp[10001];
-    int c[101] = {0};
+    int c[100001] = {0};
 
     for (int i = 1; i <= k; i++) dp[i] = INF;
     dp[0] = 0;
