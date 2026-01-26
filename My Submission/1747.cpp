@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-long long num[1000001];
+long long num[1003002];
 
 int main()
 {
@@ -16,14 +16,14 @@ int main()
     num[0] = 0;
     num[1] = 0;
 
-    for (long long i = 2; i <= 1000000; ++i)
+    for (long long i = 2; i <= 1003002; ++i)
     {
         num[i] = i;
     }
 
-    for (long long i = 2; i <= 1000000; ++i)
+    for (long long i = 2; i <= 1003002; ++i)
     {
-        for (long long j = i * 2; j <= 1000000; j += i)
+        for (long long j = i * 2; j <= 1003002; j += i)
         {
             if (num[j] != i && num[j] % i == 0)
             {
@@ -33,7 +33,7 @@ int main()
     }
     
     int a = 0;
-    while (n++)
+    while (n <= 1003002)
     {
         if (num[n] != 0)
         {
@@ -53,6 +53,8 @@ int main()
                 break;
             }
         }
+
+        n++;
     }
 
     return 0;
