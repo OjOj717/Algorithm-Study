@@ -11,11 +11,11 @@ int main()
     {
         if (str[i] != str[str.length() - 1 - i]) 
         {
-            cout << 0 << endl;
+            cout << "false" << endl;
             return 0;
         }
     }
-    cout << 1 << endl;
+    cout << "true" << endl;
     
     return 0;
 }
