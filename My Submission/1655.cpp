@@ -39,21 +39,18 @@ int main()
     {
         cin >> x;
         
-        if (s.empty()) s.push(x);
-        else if (b.empty()) b.push(x);
-        else
+        if (s.size() <= b.size()) s.push(x);
+        else b.push(x);
+        if (!s.empty() && !b.empty() && s.top() > b.top())
         {
-            if (s.size() <= b.size()) s.push(x);
-            else b.push(x);
-            if (s.top() > b.top())
-            {
-                d = s.top();
-                s.push(b.top());
-                b.push(d);
-            }
+            d = s.top();
+            s.pop();
+            s.push(b.top());
+            b.push(d);
+            b.pop();
         }
 
-        cout << s.top() << endl;
+        cout << s.top() << "\n";
     }
 
     return 0;
