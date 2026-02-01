@@ -8,9 +8,9 @@
 #include <algorithm>
 using namespace std;
 
-long long n;
+long long n, len;
 string str;
-bool chack;
+bool check;
 
 int main()
 {
@@ -24,18 +24,19 @@ int main()
     {
         getline(std::cin, str);
 
-        chack = true;
-        for (int i = 0; i < str.length() / 2; i++) 
+        len = str.length();
+        check = true;
+        for (long long j = 0; j < len / 2; j++) 
         {
-            if (tolower(str[i]) != tolower(str[str.length() - 1 - i])) 
+            if (tolower(str[j]) != tolower(str[len - 1 - j])) 
             {
-                chack = false;
+                check = false;
                 break;
             }
         }
 
-        if (chack) cout << "YES" << "\n";
-        else cout << "NO" << "\n";
+        if (check) cout << "Yes" << "\n";
+        else cout << "No" << "\n";
     }
     return 0;
 }
