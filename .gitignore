@@ -1,43 +1,17 @@
-### VisualStudioCode 관련 및 기타 설정 ###
-.history/
-*.vsix
-.DS_Store
-Thumbs.db
-
-# 빌드 관련 (확장자 기반)
-*.exe
-*.out
-*.app
-*.o
-*.obj
-*.so
-*.dll
-
-# 빌드 디렉토리
-[Bb]uild/
-bin/
-obj/
-out/
-cmake-build-*/
-.cache/
-.clangd/
-
-# --- 확장자 없는 리눅스 실행 파일 대응 ---
-
-# 1. 모든 파일을 무시 대상으로 설정
+# 모든 파일을 무시
 *
-
-# 2. 디렉토리는 무시하지 않음 (폴더 안으로 들어갈 수 있게 함)
 !*/
-
-# 3. 확장자가 있는 모든 파일은 허용 (README.md, main.cpp, .gitignore 등)
-!*.*
-
-# 4. [중요] 특정 파일 이름 예외 허용 (확장자가 없더라도 꼭 필요한 파일들)
-!README
-!LICENSE
-!Makefile
-!makefile
-
-# 5. .vscode 폴더 관리
 .vscode/
+
+# 허용할 확장자
+!.gitignore
+!README.md
+!LICENSE
+
+!*.cpp
+!*.h
+!*.hpp
+!*.cc
+!*.py
+
+!*.txt
