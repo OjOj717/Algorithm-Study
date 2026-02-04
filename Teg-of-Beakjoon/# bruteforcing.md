@@ -1,26 +1,7 @@
----
 
-title: "알고리즘 이론 노트 템플릿"
+# # 브루트포스 알고리즘
 
-aliases: ["Algorithm Theory Template","알고리즘 템플릿"]
-
-tags: [algorithms, template, notes]
-
-topic: "알고리즘"
-
-difficulty: "Intermediate" # choose: Beginner/Intermediate/Advanced
-
-status: "draft" # draft / in-progress / reviewed
-
-created: {{date}}
-
-last_reviewed: {{date}}
-
----
-
-# # 제목
-
-> 한 문장 요약: **(이 알고리즘/이론을 한 줄로 요약)**
+> bruteforcing
 
 ---
 
