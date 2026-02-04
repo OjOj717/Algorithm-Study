@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "브루트포스 알고리즘.md",
+                "file": "template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "브루트포스 알고리즘"
+              "title": "template"
             }
           }
         ],
@@ -48,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "브루트포스 알고리즘.md",
+                "file": "template.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "브루트포스 알고리즘"
+              "title": "template"
             }
           }
         ]
@@ -223,7 +223,7 @@
   "active": "b12f5e6d06025a0c",
   "lastOpenFiles": [
     "Template.md",
-    "브루트포스 알고리즘.md",
+    "template.md",
     "Welcome.md",
     "Algorithm-Study"
   ]
