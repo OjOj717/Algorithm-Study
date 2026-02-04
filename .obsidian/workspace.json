@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "394f625fd8a761ae",
@@ -219,7 +220,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "42d7ca495da5f3cc",
+  "active": "b12f5e6d06025a0c",
   "lastOpenFiles": [
     "Template.md",
     "브루트포스 알고리즘.md",
