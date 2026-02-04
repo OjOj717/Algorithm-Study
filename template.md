@@ -18,7 +18,7 @@ last_reviewed: {{date}}
 
 ---
 
-# 📔 #제목
+# # 제목
 
 > 한 문장 요약: **(이 알고리즘/이론을 한 줄로 요약)**
 
@@ -32,23 +32,16 @@ last_reviewed: {{date}}
 
 ## 🗝️ Key Concept
 
-- **핵심 아이디어**: (짧게)
+- **핵심 요약: (짧게)
 
 - **관련 키워드**: #a #b
 
-- **주요 정리:
+- **사용되는 상황:
 
-  - 핵심 성질 1
-
-  - 핵심 성질 2
-
-- **사용되는 상황 / 언제 쓰는가**:
-
-  - 예: 최단경로, 최적화 문제 등
 
 ---
 
-## 📑 Theory
+## 📓 Theory
 
 ### 정의
 
@@ -110,6 +103,15 @@ last_reviewed: {{date}}
 
 
 ---
+## ⚠️ Caution
+
+- 입력 크기/경계값 주의
+
+- 오버플로우 주의
+
+- 특정 케이스에서 시간 초과가 날 수 있음
+
+---
 
 ## ⚙️ Pseudocode
 
@@ -129,25 +131,11 @@ function Example(input):
 
 ```
 
-  
 ---
-
-## ⚠️ Caution
-
-- 입력 크기/경계값 주의
-
-- 오버플로우 주의
-
-- 특정 케이스에서 시간 초과가 날 수 있음
-
----
-
-  
 
 ## 💻 구현 (Code snippets)
 
   
-
 ```python
 
 # Python implementation
@@ -167,7 +155,6 @@ if __name__ == "__main__":
 ```
 
   
-
 ```cpp
 
 // C++ implementation
@@ -187,11 +174,9 @@ int main() {
 ```
 
   
-
 ---
 
-  
-## ✅ Beakjoon Problems
+## ☑️ Beakjoon Problems
 
 - **1000**  
 
@@ -203,104 +188,10 @@ int main() {
 
 - **1001**
 
-
-
-# 🧩 문제 노트 템플릿 (Problem Note) — 사용법: 문제 정리 전용
-
 ---
 
-title: "Problem - {문제 제목}"
+## 📝 Memo
 
-tags: [problem, practice, difficulty:Medium]
+<br>
 
-source: ""
-
-difficulty: Medium
-
-solved: false
-
----
-
-  
-
-## 문제 요약 (Problem)
-
-- 출처:
-
-- 난이도:
-
-- 핵심 아이디어:
-
-  
-
-## 입력 / 출력 (I/O)
-
-- 입력:
-
-- 출력:
-
-- 제약 조건:
-
-  
-
-## 풀이 아이디어 (Approach)
-
-- 핵심 아이디어:
-
-- 의사코드:
-
-  
-
-## 구현 (Code)
-
-```python
-
-# 풀이 코드
-
-```
-
-  
-
-## 시간/공간 분석
-
-- 시간:
-
-- 공간:
-
-  
-
-## 변형 / 확장
-
-- 변형 1:
-
-- 연습 문제:
-
-  
-
-## 메모
-
-- TODO / 향후 보완할 점
-
-  
-
----
-
-  
-
-# 사용 팁 (How to use in Obsidian)
-
-- 이 파일을 `Templates/` 폴더에 넣고 Obsidian Templates 플러그인으로 불러와 사용하세요.
-
-- 템플릿에서 `{{date}}` 같은 부분은 Templater 플러그인의 변수를 넣어 자동화 할 수 있습니다.
-
-- Problem Note는 문제 풀 때 새로 복사해 만들어서 사용하세요.
-
-- 메타데이터는 Dataview 플러그인으로 조회하면 아주 유용합니다.
-
-  
-
----
-
-  
-
-> 만든 사람: Ojing-Ojing (오징오징) — "나만의 알고리즘 책을 만들자!"
+> Written by **OjOj717**
