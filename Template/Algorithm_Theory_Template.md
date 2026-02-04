@@ -1,13 +1,11 @@
 
 # # 제목
 
-> 한 문장 요약: **(이 알고리즘/이론을 한 줄로 요약)**
-
----
+<br>
 
 ## 📅 STUDY LOG 
 **Created:** 2026.02.04 
-**Updated:** 2026.02.04
+**Last Updated:** 2026.02.04
 
 ---
 
@@ -159,7 +157,7 @@ int main() {
 
 ## ☑️ Beakjoon Problems
 
-- **1000**  
+- **[1000](https://github.com/OjOj717/Baekjoon-Online-Judge/blob/main/My%20Submission/1000.cpp) **
 
   - 핵심 아이디어:  
 

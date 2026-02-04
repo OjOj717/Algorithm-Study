@@ -31,10 +31,14 @@
             "id": "42d7ca495da5f3cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Teg-of-Beakjoon/# bruteforcing.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "# bruteforcing"
             }
           }
         ]
@@ -213,10 +217,11 @@
   },
   "active": "d4106e4ac42d6b79",
   "lastOpenFiles": [
-    "Teg-of-Beakjoon",
+    "Template/Algorithm_Theory_Template.md",
     "Teg-of-Beakjoon/# bruteforcing.md",
-    "Template/Algorithm_Theory_Template.md",
-    "Template/Algorithm_Theory_Template.md",
+    "2026-02-04.md",
+    "Untitled.canvas",
+    "Teg-of-Beakjoon",
     "Welcome.md",
     "Template",
     "Template.md",
