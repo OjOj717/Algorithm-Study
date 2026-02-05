@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beakjoon-Problems/09944.md",
+                "file": "Beakjoon-Teg/# bruteforcing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09944"
+              "title": "# bruteforcing"
             }
           }
         ]
@@ -196,24 +196,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a4974941d7316959",
+  "active": "7bf6f0388c772a15",
   "lastOpenFiles": [
-    "Beakjoon-Submission/9184.cpp",
-    "Beakjoon-Submission/9944.cpp",
-    "Beakjoon-Submission/9461.cpp",
-    "Beakjoon-Submission/9625.cpp",
-    "Beakjoon-Submission/9095.cpp",
-    "Beakjoon-Submission/9012.cpp",
-    "Beakjoon-Submission/7789.cpp",
-    "Beakjoon-Submission/5585.cpp",
-    "Beakjoon-Submission/7570.cpp",
-    "Beakjoon-Submission/3015.cpp",
-    "Beakjoon-Submission/2775.cpp",
-    "README.md",
-    "Teg-of-Beakjoon/# bruteforcing.md",
+    "Beakjoon-Submission/1000.cpp",
+    "Beakjoon-Submission",
     "Template/Algorithm_Problem_Template.md",
-    "Beakjoon-Problems/09944.md",
     "Template/Algorithm_Theory_Template.md",
+    "Beakjoon-Teg/# bruteforcing.md",
+    "README.md",
+    "Beakjoon-Problems/09944.md",
+    "Beakjoon-Submission-cpp/9184.cpp",
+    "Beakjoon-Submission-cpp/9944.cpp",
+    "Beakjoon-Submission-cpp/9461.cpp",
+    "Beakjoon-Submission-cpp/9625.cpp",
+    "Beakjoon-Submission-cpp/9095.cpp",
+    "Beakjoon-Submission-cpp/9012.cpp",
+    "Beakjoon-Submission-cpp/7789.cpp",
+    "Beakjoon-Submission-cpp/5585.cpp",
+    "Beakjoon-Submission-cpp/7570.cpp",
     "2026-02-04.md",
     "Untitled.canvas",
     "Welcome.md",

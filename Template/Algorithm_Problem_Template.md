@@ -59,7 +59,7 @@ function Example(input):
 
 ## 💻 Code
 
-- **[cpp](https://github.com/OjOj717/Baekjoon-Online-Judge/blob/main/My%20Submission/1000.cpp)**
+- **[cpp](1000.cpp)**
 
 
 ---

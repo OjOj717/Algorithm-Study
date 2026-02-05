@@ -1,4 +1,4 @@
-# Baekjoon-Online-Judge
+# 🧩 Algorithm-Study
 
 
 
@@ -17,6 +17,7 @@
 <br>
 
 ## Another account
+
 <div align="center">
   
 ![hyp3rflow's solved.ac stats](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=ojoj)

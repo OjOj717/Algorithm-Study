@@ -129,7 +129,7 @@ for (int i = 0; i < n; i++) {
 
 ## ☑️ Baekjoon Problems
 
-- **[1000](https://github.com/OjOj717/Baekjoon-Online-Judge/blob/main/My%20Submission/1000.cpp)**
+- **[1000](1000.cpp)**
     
     - 핵심 아이디어:
         
