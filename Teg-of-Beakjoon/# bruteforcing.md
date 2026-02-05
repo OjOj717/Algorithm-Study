@@ -45,7 +45,7 @@
  </details>
 
 ### 시각 자료
-
+```mermaid
 flowchart TD
     A[시작] --> B[모든 후보 생성]
     B --> C{조건 확인}
@@ -53,6 +53,8 @@ flowchart TD
     C -->|조건 불만족| E[다음 후보]
     D --> E
     E --> F[종료]
+```
+
 
 ---
 
