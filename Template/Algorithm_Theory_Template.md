@@ -1,6 +1,6 @@
 # # 제목
 
-## 📅 STUDY LOG
+## 📅 Study Log
 
 **Created:** 2026.02.04
 

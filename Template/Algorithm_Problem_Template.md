@@ -1,6 +1,6 @@
 # 문제
 
-## 📅 PROBLEM LOG
+## 📅 Problem Log
 
 **Started**: 2026.02.05
 
@@ -10,9 +10,9 @@
 
 ## 🗝️ Problem Info
 
-- **문제 링크**:
+- **문제 링크**: **[9944](https://www.acmicpc.net/problem/9944)**
     
-- **난이도**:
+- **난이도**: <img src="https://static.solved.ac/tier_small/13.svg" height="16px" style="vertical-align:middle;"> Gold 3
     
 - **태그**: #구현 #그리디 #그래프 #DP
     
@@ -36,13 +36,9 @@
 
 ### 핵심 아이디어
 
-### 접근 전략
+### 접근 전략 브레인스토밍
 
-- **브루트포스**:
-    
-- **최적화 방법**:
-    
-- **사용한 자료구조/알고리즘**:
+- 
     
 
 ---
@@ -70,7 +66,9 @@ function Example(input):
 
 ## ☑️ Submission Record
 
-- **Status**: 
+- **상태**:
+    
+- **시도 횟수**:
     
 - **시간 / 메모리**:
     
