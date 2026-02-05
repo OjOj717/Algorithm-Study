@@ -1,5 +1,5 @@
 # # 제목
-
+<br>
 **Created:** 2026.02.04
 
 **Last Updated:** 2026.02.04
@@ -14,6 +14,7 @@
     
 - **사용되는 상황**:
     
+<br>
 
 ---
 
@@ -36,11 +37,12 @@
 <details>
 <summary>증명 보기 (클릭)</summary>
 
-$$f(n) = \sum_{i=1}^n i = \frac{n(n+1)}{2}$$
+$E=mc^2$
 
 </details>
 
 ### 시각 자료
+<br>
 
 ---
 
@@ -52,6 +54,7 @@ $$f(n) = \sum_{i=1}^n i = \frac{n(n+1)}{2}$$
     
 - 추가 메모:
     
+<br>
 
 ---
 
@@ -61,6 +64,7 @@ $$f(n) = \sum_{i=1}^n i = \frac{n(n+1)}{2}$$
     
 - 오버플로우 주의
     
+<br>
 
 ---
 
@@ -75,6 +79,7 @@ function Example(input):
         ...
     return result
 ```
+<br>
 
 ---
 
@@ -101,6 +106,7 @@ int main() {
     return 0;
 }
 ```
+<br>
 
 ---
 
@@ -114,6 +120,7 @@ int main() {
         
 - **1001**
     
+<br>
 
 ---
 
