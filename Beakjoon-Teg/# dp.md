@@ -127,4 +127,6 @@ int main() {
 
 ## 📝 Memo
 
+으이 승질나네
+
 > Written by **OjOj717**
