@@ -45,6 +45,8 @@
  </details>
 
 ### 시각 자료
+
+<details><summary>플로우차트 (클릭)</summary>
 ```mermaid
 flowchart TD
     A[시작] --> B[모든 후보 생성]
@@ -54,6 +56,7 @@ flowchart TD
     D --> E
     E --> F[종료]
 ```
+ </details>
 
 
 ---
