@@ -34,14 +34,9 @@
 ### 증명
 
 <details>
-
 <summary>증명 보기 (클릭)</summary>
 
-증명 과정은 다음과 같습니다:
-
 $$f(n) = \sum_{i=1}^n i = \frac{n(n+1)}{2}$$
-
-위 공식에 의해 증명됩니다.
 
 </details>
 
