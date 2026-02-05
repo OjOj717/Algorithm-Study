@@ -5,6 +5,7 @@
 
 ## 📅 STUDY LOG 
 **Created:** 2026.02.04 
+<br>
 **Last Updated:** 2026.02.04
 
 ---
