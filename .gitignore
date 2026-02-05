@@ -1,0 +1,17 @@
+# 모든 파일을 무시
+*
+!*/
+.vscode/
+
+# 허용할 확장자
+!.gitignore
+!README.md
+!LICENSE
+
+!*.cpp
+!*.h
+!*.hpp
+!*.cc
+!*.py
+
+!*.txt
