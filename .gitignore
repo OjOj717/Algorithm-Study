@@ -1,17 +1,29 @@
-# 모든 파일을 무시
+# 1. 모든 파일 무시
 *
 !*/
-.vscode/
 
-# 허용할 확장자
+# 2. 공통 설정 및 에디터 허용
 !.gitignore
 !README.md
 !LICENSE
+!.vscode/
 
+# 3. 알고리즘 코드 파일 허용
 !*.cpp
 !*.h
 !*.hpp
 !*.cc
 !*.py
-
 !*.txt
+
+# 4. 옵시디언 및 문서 파일 허용
+!*.md
+!*.pdf
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+
+# 옵시디언 설정 폴더 내부 파일들 허용
+!.obsidian/
+!.obsidian/**
