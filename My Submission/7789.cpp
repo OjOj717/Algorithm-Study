@@ -9,7 +9,7 @@
 using namespace std;
 
 long long a, b, n;
-long long arr[10000001];
+bool arr[10000001];
 
 int main()
 {
@@ -20,26 +20,17 @@ int main()
 
     n = a + 1000000 * b;
 
-    arr[0] = 0;
-    arr[1] = 0;
+    fill(arr + 2, arr + n + 1, true);
 
-    for (long long i = 2; i <= n; ++i)
+    for (long long i = 2; i * i <= n; ++i)
     {
-        arr[i] = i;
-    }
-
-    for (long long i = 2; i <= n; ++i)
-    {
-        for (long long j = i * 2; j <= n; j += i)
+        for (long long j = i * i; j <= n; j += i)
         {
-            if (arr[j] != i && arr[j] % i == 0)
-            {
-                arr[j] = 0;
-            }
+            arr[j] = false;
         }        
     }
-
-    if (arr[n] != 0) cout << "Yes";
+    
+    if (arr[n] && arr[a] ) cout << "Yes";
     else cout <<  "No";
 
     return 0;
