@@ -34,12 +34,11 @@
 
 ### 증명
 
-<details>
-<summary>증명 보기 (클릭)</summary>
-증명 과정은 다음과 같습니다: <br>
-f(n)=i=1∑n​i=2n(n+1)​<br>
+증명 과정은 다음과 같습니다: 
+
+f(n)=i=1∑n​i=2n(n+1)​
+
 위 공식에 의해 증명됩니다.
- </details>
 
 ### 시각 자료
 
@@ -70,11 +69,16 @@ f(n)=i=1∑n​i=2n(n+1)​<br>
 Plaintext
 
 ```
-function Example(input):
-    initialize ...
-    for i in range(0, n):
-        ...
-    return result
+함수 브루트포스_탐색(문제 P):
+    # 1. 문제에서 발생할 수 있는 '모든 후보'를 하나씩 꺼냄.
+    각각의 후보 c를 P의 모든_가능한_선택지들 중에서 반복:
+        
+        # 2. 지금 꺼낸 후보 c가 정답의 조건에 맞는지 검사.
+        만약 조건_확인(c, P)이 참이라면:
+            반환 c  # 2-1. 정답을 찾았으므로 즉시 종료 및 결과 전달.
+            
+    # 3. 모든 후보를 다 확인했는데도 조건을 만족하는 게 없다면,
+    반환 실패  # 해가 존재하지 않음
 ```
 
 ---
@@ -84,22 +88,27 @@ function Example(input):
 Python
 
 ```
-def example(arr):
-    return None
-
-if __name__ == "__main__":
-    print(example([1,2,3]))
+# Python: 1부터 N까지 모든 경우를 다 확인하는 형태
+def find_answer(n, target):
+    for i in range(1, n + 1):
+        # 조건에 맞는지 확인
+        if i == target:
+            return i # 정답 발견
+    return -1 # 정답 없음
 ```
 
 C++
 
 ```
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-    // TODO: 구현
-    return 0;
+// C++: 다중 루프를 통한 조합 탐색
+for (int i = 0; i < n; i++) {
+    for (int j = i + 1; j < n; j++) {
+        for (int k = j + 1; k < n; k++) {
+            // 모든 3가지 조합을 다 확인
+            int sum = card[i] + card[j] + card[k];
+            if (sum <= target) result = max(result, sum);
+        }
+    }
 }
 ```
 
