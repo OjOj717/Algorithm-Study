@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b67868ee5bad5b4b",
+        "id": "2afce64e32a38b76",
         "type": "tabs",
         "children": [
           {
-            "id": "0212db25697ee037",
+            "id": "48cc160743b340bb",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace-mobile.json",
-                "bFile": ".obsidian/workspace-mobile.json",
-                "aRef": ""
+                "file": "Beakjoon-Teg/# dp.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: workspace-mobile.json"
+              "icon": "lucide-file",
+              "title": "# dp"
             }
           }
         ]
@@ -200,8 +200,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0212db25697ee037",
+  "active": "48cc160743b340bb",
   "lastOpenFiles": [
+    "sync_git.sh",
     "Beakjoon-Teg/# dp.md",
     "/Beakjoon-Teg/# dp.md",
     "/Beakjoon-Teg",
