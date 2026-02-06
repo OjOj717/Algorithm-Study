@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beakjoon-Teg/# dp.md",
+                "file": "Beakjoon-Teg/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# dp"
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd4a944f876eb5e6",
+  "active": "48cc160743b340bb",
   "lastOpenFiles": [
     "Beakjoon-Teg/Untitled.md",
     "Beakjoon-Teg/# dp.md",
