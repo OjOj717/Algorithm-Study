@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beakjoon-Problems/13901.md",
-                "mode": "preview",
+                "file": "Template/Algorithm_Problem_Template.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "13901"
+              "title": "Algorithm_Problem_Template"
             }
           }
         ]
@@ -198,9 +198,14 @@
   },
   "active": "f1cab41cc7968731",
   "lastOpenFiles": [
+    "Template/Algorithm_Theory_Template.md",
+    "Beakjoon-Problems/13901.md",
+    "Beakjoon-Submission-cpp/13901.pdb",
+    "Beakjoon-Submission-cpp/13901.exe",
+    "Beakjoon-Submission-cpp/13901.ilk",
+    "Beakjoon-Submission-cpp/13901.obj",
     "Beakjoon-Submission-cpp/13901.cpp",
     "Beakjoon-Problems/111.md",
-    "Beakjoon-Problems/13901.md",
     "Template/Algorithm_Problem_Template.md",
     "Beakjoon-Problems/09944.md",
     "Beakjoon-Submission-cpp/25494.pdb",
@@ -208,14 +213,8 @@
     "Beakjoon-Submission-cpp/25494.ilk",
     "Beakjoon-Submission-cpp/25494.obj",
     "Beakjoon-Submission-cpp/vc140.pdb",
-    "Beakjoon-Submission-cpp/25494.cpp",
     "Beakjoon-Teg/# bruteforcing.md",
-    "Beakjoon-Submission/1000.cpp",
-    "Beakjoon-Submission",
-    "Template/Algorithm_Theory_Template.md",
     "README.md",
-    "Beakjoon-Submission-cpp/9184.cpp",
-    "Beakjoon-Submission-cpp/9944.cpp",
     "2026-02-04.md",
     "Untitled.canvas",
     "Welcome.md",

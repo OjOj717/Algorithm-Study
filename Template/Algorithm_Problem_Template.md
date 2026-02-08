@@ -43,6 +43,19 @@
 
 ---
 
+## 🗃️ Variable
+
+Plaintext
+
+```
+숫자) r, c, k, br, bc, ar, ac, at
+불) chack
+불 배열) arr[r][c]
+숫자 배열) turn[4]
+```
+
+---
+
 ## ⚙️ Pseudocode
 
 Plaintext
