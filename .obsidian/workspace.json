@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beakjoon-Problems/111.md",
-                "mode": "source",
-                "source": false
+                "file": "Beakjoon-Problems/13901.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "111"
+              "title": "13901"
             }
           }
         ]
@@ -192,12 +192,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a4974941d7316959",
+  "active": "f1cab41cc7968731",
   "lastOpenFiles": [
+    "Beakjoon-Submission-cpp/13901.cpp",
     "Beakjoon-Problems/111.md",
+    "Beakjoon-Problems/13901.md",
     "Template/Algorithm_Problem_Template.md",
     "Beakjoon-Problems/09944.md",
     "Beakjoon-Submission-cpp/25494.pdb",
