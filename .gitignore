@@ -27,3 +27,10 @@
 # 옵시디언 설정 폴더 내부 파일들 허용
 !.obsidian/
 !.obsidian/**
+
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json
+.obsidian/app.json
+
+.trash/
+.DS_Store
