@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beakjoon-Problems/13901.md",
+                "file": "Beakjoon-Problems/09944.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13901"
+              "title": "09944"
             }
           }
         ],
@@ -213,9 +213,9 @@
   },
   "active": "1bfc2fc55ce69d56",
   "lastOpenFiles": [
+    "Beakjoon-Problems/13901.md",
     "Beakjoon-Problems/09944.md",
     "Template/Algorithm_Problem_Template.md",
-    "Beakjoon-Problems/13901.md",
     "Beakjoon-Teg/# bruteforcing.md",
     "Template/Algorithm_Theory_Template.md",
     "Beakjoon-Submission-cpp/13901.pdb",
