@@ -9,7 +9,7 @@
 using namespace std;
 
 long long n, curr, nxt, ans;
-bool is_prime[1000003], visited[1003];
+bool is_prime[1000003], visited[1000003];
 
 int main()
 {
@@ -18,21 +18,22 @@ int main()
 
     cin >> n;
 
+    fill(is_prime, is_prime + n + 1, true);
     is_prime[0] = false;
     is_prime[1] = false;
 
     for (long long i = 2; i <= n; i++)
     {
-        if (is_prime[i] = false) continue;
+        if (is_prime[i] == false) continue;
 
-        for (long long j = i * i; j <= n; j++) is_prime[j] = false;
+        for (long long j = i * i; j <= n; j += i) is_prime[j] = false;
     }
 
     for (long long i = 2; i <= n; i++)
     {
-        if (is_prime[i] = true)
+        if (is_prime[i] == true)
         {
-            for (long long j = 0; j < 1003; j++)
+            for (long long j = 0; j < 1000003; j++)
             {
                 visited[j] = false;
             }
@@ -61,7 +62,7 @@ int main()
                 }
             }
 
-            if (ans == true) cout << i << " ";
+            if (ans == true) cout << i << "\n";
         }
     }
     return 0;
