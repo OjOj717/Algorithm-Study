@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beakjoon-Problems/09944.md",
+                "file": "Beakjoon-Teg/# bruteforcing.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "09944"
+              "title": "# bruteforcing"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#브루트포스_알고리즘",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,11 +198,12 @@
   },
   "active": "1bfc2fc55ce69d56",
   "lastOpenFiles": [
-    "Beakjoon-Problems/13901.md",
-    "Beakjoon-Problems/09944.md",
-    "Template/Algorithm_Problem_Template.md",
-    "Beakjoon-Teg/# bruteforcing.md",
     "Template/Algorithm_Theory_Template.md",
+    "Beakjoon-Teg/# bruteforcing.md",
+    "Beakjoon-Teg/# dp.md",
+    "Beakjoon-Problems/09944.md",
+    "Beakjoon-Problems/13901.md",
+    "Template/Algorithm_Problem_Template.md",
     "Beakjoon-Submission-cpp/13901.pdb",
     "Beakjoon-Submission-cpp/13901.exe",
     "Beakjoon-Submission-cpp/13901.ilk",
