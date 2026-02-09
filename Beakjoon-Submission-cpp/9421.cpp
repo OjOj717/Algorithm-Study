@@ -10,6 +10,7 @@ using namespace std;
 
 long long n, curr, nxt, ans;
 bool is_prime[1000003], visited[1000003];
+vector<int> history;
 
 int main()
 {
@@ -33,18 +34,16 @@ int main()
     {
         if (is_prime[i] == true)
         {
-            for (long long j = 0; j < 1000003; j++)
-            {
-                visited[j] = false;
-            }
+            for (int h : history) visited[h] = false;
+            history.clear();
             curr = i;
             ans = false;
 
             while(true)
             {
                 if (visited[curr] == true) break;
-
                 visited[curr] = true;
+                history.push_back(curr);
                 nxt = 0;
 
                 while(curr > 0)
