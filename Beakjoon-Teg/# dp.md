@@ -157,13 +157,11 @@ int solve(int n) {
 
 ## ☑️ Baekjoon Problems
 
-- **[1000](1000.cpp)**
+- **[1463](1463.cpp)**
     
-    - 핵심 아이디어:
+    - 제목: 1로 만들기
         
-    - 해법 요약:
-        
-- **1001**
+    - 활용: Bottom-up $$\text{arr}[i] = \min(\text{arr}[i-1], \text{arr}[i/2] \text{ (if } i\%2==0), \text{arr}[i/3] \text{ (if } i\%3==0)) + 1$$
     
 
 ---
