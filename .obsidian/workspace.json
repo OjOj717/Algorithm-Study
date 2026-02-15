@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Algorithm_Theory_Template.md",
+                "file": "Beakjoon-Teg/# greedy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithm_Theory_Template"
+              "title": "# greedy"
             }
           }
         ],
@@ -227,10 +227,10 @@
   },
   "active": "9910fbf0818d347c",
   "lastOpenFiles": [
+    "Template/Algorithm_Theory_Template.md",
     "Beakjoon-Teg/# dp.md",
     "Beakjoon-Teg/# bruteforcing.md",
     "Beakjoon-Teg/# greedy.md",
-    "Template/Algorithm_Theory_Template.md",
     "Beakjoon-Problems/2941.md",
     "Beakjoon-Submission-cpp/1427.pdb",
     "Beakjoon-Submission-cpp/1427.exe",
