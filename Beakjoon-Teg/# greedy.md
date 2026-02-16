@@ -78,16 +78,18 @@ flowchart TD
 Plaintext
 
 ```
-함수 브루트포스_탐색(문제 P):
-    # 1. 문제에서 발생할 수 있는 '모든 후보'를 하나씩 꺼냄.
-    각각의 후보 c를 P의 모든_가능한_선택지들 중에서 반복:
-        
-        # 2. 지금 꺼낸 후보 c가 정답의 조건에 맞는지 검사.
-        만약 조건_확인(c, P)이 참이라면:
-            반환 c  # 2-1. 정답을 찾았으므로 즉시 종료 및 결과 전달.
-            
-    # 3. 모든 후보를 다 확인했는데도 조건을 만족하는 게 없다면,
-    반환 실패  # 해가 존재하지 않음
+함수 그리디_알고리즘(데이터셋 S):
+	# 1. 데이터를 특정 기준(예: 가장 큰 것, 가장 짧은 시간)으로 정렬.
+	데이터셋_정렬(S)
+	
+	# 2. 정렬된 데이터에서 탐욕적인 선택을 반복.
+	result = [] 각각의 요소 item을 S에서 반복:
+		만약 item이 현재 상태에서 가능한 가장 최적의 선택이라면:
+			result.append(item)
+			현재 상태 업데이트 
+	
+	# 3. 최종 결과 반환.
+	반환 result
 ```
 
 ---
@@ -97,28 +99,27 @@ Plaintext
 Python
 
 ```
-# Python: 1부터 N까지 모든 경우를 다 확인하는 형태
-def find_answer(n, target):
-    for i in range(1, n + 1):
-        # 조건에 맞는지 확인
-        if i == target:
-            return i # 정답 발견
-    return -1 # 정답 없음
+# Python: 거스름돈 문제 (큰 화폐 단위부터 선택) 
+def coin_change(amount, coins): 
+	coins.sort(reverse=True) # 1. 큰 단위부터 정렬 
+	count = 0 
+	for coin in coins: 
+		count += amount // coin # 2. 탐욕적 선택 
+		amount %= coin 
+	return count
 ```
 
 C++
 
 ```
-// C++: 다중 루프를 통한 조합 탐색
-for (int i = 0; i < n; i++) {
-    for (int j = i + 1; j < n; j++) {
-        for (int k = j + 1; k < n; k++) {
-            // 모든 3가지 조합을 다 확인
-            int sum = card[i] + card[j] + card[k];
-            if (sum <= target) result = max(result, sum);
-        }
-    }
+// C++: 회의실 배정 문제 (종료 시간 기준 정렬) 
+struct Meeting { int start, end; }; 
+bool compare(Meeting a, Meeting b) 
+{ 
+	if (a.end == b.end) return a.start < b.start; 
+	return a.end < b.end; 
 }
+// ... 정렬 후 그리디 적용 ...
 ```
 
 ---
