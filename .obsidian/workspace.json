@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1010.md",
+                "file": "Beakjoon-Problems/1010.md",
                 "mode": "source",
                 "source": false
               },
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "tag:#조합론",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,7 +256,7 @@
   "active": "a4974941d7316959",
   "lastOpenFiles": [
     "Beakjoon-Problems/1436.md",
-    "1010.md",
+    "Beakjoon-Problems/1010.md",
     "Beakjoon-Submission-cpp/1065.pdb",
     "Beakjoon-Submission-cpp/1065.exe",
     "Beakjoon-Submission-cpp/1065.ilk",
