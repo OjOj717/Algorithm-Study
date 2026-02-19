@@ -27,14 +27,14 @@ int main()
         if (d.length() <= 2) ans ++;
         else
         {
-            c = abs(d[0] - d[1]);
+            c = d[1] - d[0];
 
             for (j = 2; j < d.length(); j++)
             {
-                if ( abs(d[j] - d[j-1]) != c ) break;
+                if (d[j] - d[j-1] != c ) break;
             }
 
-            if ( j == d.length() - 1) ans++;
+            if ( j == d.length() ) ans++;
         }
     }
 
