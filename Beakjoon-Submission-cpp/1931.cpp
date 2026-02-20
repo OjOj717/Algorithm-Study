@@ -8,26 +8,35 @@
 #include <algorithm>
 using namespace std;
 
-int a, b, c;
+int n, d, ans;
+vector<pair<int, int>> v;
+
+int i;
 
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    cin >> a >> b;
+    cin >> n;
 
-    c = 1;
-    while (b > a)
+    v.resize(n);
+    for ( i = 0; i < n; i++) cin >> v[i].first >> v[i].second;
+
+    sort(v.begin(), v.end());
+
+    d = v[0].second;
+    ans = 1;
+    for ( i = 0; i < n; i++)
     {
-        if ( b % 2 == 0) b /= 2;
-        else if ( b % 10 == 1) b /= 10;
-        else break;
-        c++;
+        if ( v[i].first > d)
+        {
+            d = v[i].second;
+            ans++;
+        }
     }
 
-    if ( a == b ) cout << c;
-    else cout << -1;
+    cout << ans;
 
     return 0;
 }
