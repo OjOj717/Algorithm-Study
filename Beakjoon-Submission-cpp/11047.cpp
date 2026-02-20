@@ -8,7 +8,7 @@
 #include <algorithm>
 using namespace std;
 
-int n, k, sum;
+int n, k, c;
 int arr[11];
 
 int i;
@@ -22,12 +22,23 @@ int main()
 
     for (i = 1; i <= n; i++) cin >> arr[i];
 
-    for (i = n; i >= 1; i--) cin >> arr[i];
+    c = 0;
+    for (i = n; i >= 1; i--)
+    {
+        while (k >= 0)
+        {
+            k -= arr[i];
+            c++;
+        }
 
-    auto min_num = min_element(arr, arr + n);
-    auto max_num = max_element(arr, arr + n);
+        if (k < 0) 
+        {
+            k += arr[i];
+            c--;
+        }
+    }
 
-    cout << *min_num << " " << *max_num;
+    cout << c;
 
     return 0;
 }
